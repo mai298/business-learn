@@ -1,0 +1,223 @@
+body {
+  overflow-y: scroll; 
+  scroll-behavior: smooth; 
+}
+
+.nav1,.nav2{
+   background-color: transparent;
+   opacity: 0.7;
+}
+
+
+.header{
+    background: url('../img/news1.jpeg');
+    background-size: cover !important;
+     background-position: center !important;
+      height: 100vh !important;
+      position: relative;
+}
+
+.div-header{
+  position: absolute;
+  top: 20rem;
+  right: 14rem;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.div-header h6{
+  color: #fff;
+}
+.para-header{
+  font-size: 47px;
+  max-width: 45rem;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .div-header{
+    top: 20rem;
+  right: 1rem;
+  text-align: center;
+  }
+}
+
+a{
+    color: white !important;
+    font-weight: bold;
+}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:hover{
+    background-color: #08bab6 !important;
+    border-radius: 15px;
+  }
+
+  @keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+  .header-Btns{
+    background-color: #08bab6;
+    color: #fff;
+    border-radius: 10px;
+    border: #08bab6;
+    animation: pulse 2s ease-in-out infinite;
+
+  }
+
+  
+
+  .header-Btns:hover{
+    background-color: #f3f3f3 !important;
+    color: black !important;
+  }
+
+  .certificates .card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+ .certificate-Btns{
+    padding:0.5rem 1rem;
+    background-color: #08bab6;
+    color: #fff;
+    border-radius: 10px;
+    border: #08bab6;
+  }
+
+  .card-text{
+    color: #878891 !important;
+    font-size: 14px !important;
+    width: 16rem !important;
+  }
+
+  .certificates{
+    background-color: #f0f0f0 !important;
+  }
+  .main-header{
+    color: #08bab6;
+  }
+
+  .main-para{
+    color: #191a46;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .card-btn,.infoBtn{
+    background-color: #fff;
+    color: #191a46;
+    border: 2px solid #f1f2f3;
+    border-radius: 5px;
+  }
+  .infoBtn:hover{
+    background-color: #08bab6;
+color: #f0f0f0;
+  }
+
+  .card-btn:hover{
+    background-color: #08bab6;
+    border:2px solid #08bab6 ;
+  }
+.certificate-Btns:hover{
+  color: black !important;
+  background-color: transparent !important;
+  border:1px solid black;
+}
+  .info-header h5,
+   .news-header h5{
+    color: #08bab6;
+  }
+
+  .info-header p{
+    color: #191a46;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  .news{
+    background-color: #f0f0f0;
+  }
+
+
+  .news .card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .news-header p {
+    color: #191a46;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+
+  .news-card-title{
+    font-size: 12px;
+    color: #878891;
+  }
+
+
+  
+  .span-begroup {
+    opacity: 0 !important;
+    transform: translateY(20px) !important;
+    transition: opacity 2s, transform 1s !important;
+}
+
+.span-begroup.animate-begroup {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+  .news-text{
+    color: #1f214c;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: start;
+  }
+ ul{
+    list-style-type: none;
+ }
+
+ .companies h5{
+    font-weight: bold;
+    font-size: 40px;
+    color: #020334;
+ }
+
+ .company{
+    padding: 15px;
+    border: 2px solid  #f3f3f3;
+    border-radius: 10px;
+ }
+
+ .swiper-container {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.swiper-slide {
+  text-align: center !important;
+  font-size: 18px !important;
+  background: #fff !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #fff;
+    font-size: 24px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
